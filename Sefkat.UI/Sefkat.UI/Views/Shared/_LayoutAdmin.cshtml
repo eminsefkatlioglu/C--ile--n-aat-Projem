@@ -1,0 +1,245 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ŞEFKAT İNŞAAT | </title>
+    <!-- Bootstrap -->
+    <link href="~/Admin/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="~/Admin/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="~/Admin/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="~/Admin/build/css/custom.min.css" rel="stylesheet">
+</head>
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="@Url.Action("Anasayfa","Yonetim")" class="site_title"><i class="fa fa-paw"></i> <span>ŞEFKAT İNŞAAT</span></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <!-- menu profile quick info -->
+                    <div class="profile clearfix">
+                        <div class="profile_pic">
+                            <img src="~/UI/img/eminlogo.jpeg" alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Hoşgeldiniz,</span>
+                            <a href="@Url.Action("Index","Home")"</a>
+                            <h2>Mehmet Emin Şekatlıoğlu</h2>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- /menu profile quick info -->
+                    <br />
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                         
+                            <ul class="nav side-menu">
+                           
+                            </ul>
+                        </div>
+                        <div class="menu_section">
+                          
+                            <ul class="nav side-menu">
+                            
+                                
+                                <li>
+                                    <a href="@Url.Action("SliderListele","Yonetim")">
+                                        
+                                        <i class="fa fa-laptop"></i> Slider
+                                     </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Bloglar","Yonetim")">
+
+                                        <i class="fa fa-laptop"></i> Bloglar
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("HakkimizdaDuzenle","Yonetim")">
+
+                                        <i class="fa fa-laptop"></i>Hakkımızda
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Iletisim","Yonetim")">
+
+                                        <i class="fa fa-envelope-o"></i> İletişim/Talep
+                                    </a>
+                                </li>
+                                     <li>
+                                    <a href="@Url.Action("IsBasvuru","Yonetim")">
+
+                                        <i class="fa fa-envelope-o"></i> İş Başvuru Yapanlar
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Proje","Yonetim")">
+
+                                        <i class="fa fa-laptop"></i> Projeler
+                                    </a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- /sidebar menu -->
+                    <!-- /menu footer buttons -->
+                    <div class="sidebar-footer hidden-small">
+                        <a data-toggle="tooltip" data-placement="top" title="Ayarlar">
+                            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Tam Ekram">
+                            <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Kilit">
+                            <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Çıkış Yap" href="@Url.Action("Index","Home")">
+                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <nav>
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="~/UI/img/eminlogo.jpeg" alt="">Mehmet Emin Şefkatlıoğlu
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                    <li><a href="@Url.Action("ProfilSayfasi","Yonetim")">Profil</a></li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            
+                                            <span>Ayarlar</span>
+                                        </a>
+                                    </li>
+                                    
+                                    <li><a href="@Url.Action("Index","Home")"><i class="fa fa-sign-out pull-right"></i> Çıkış Yap</a></li>
+                                </ul>
+                            </li>
+
+                            <li role="presentation" class="dropdown">
+                                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="badge bg-green">6</span>
+                                </a>
+                                <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                                    <li>
+                                        <a>
+                                            <span class="image"><img src="~/Admin/build/images/img.jpg" alt="Profile Image" /></span>
+                                            <span>
+                                                <span>Enes Avcı</span>
+                                                <span class="time">1 Gün Önce</span>
+                                            </span>
+                                            <span class="message">
+                                               İnşaatınızda kapı,pencere,pvc,işlerinin yapım ve montaj işlerini yapmak istiyorum.
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image"><img src="~/Admin/build/images/img.jpg" alt="Profile Image" /></span>
+                                            <span>
+                                                <span>Enes Binici</span>
+                                                <span class="time"> 2 Gün Önce</span>
+                                            </span>
+                                            <span class="message">
+                                                Klima alım,satım ve montaj işlerini yapmak isterim
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image"><img src="~/Admin/build/images/img.jpg" alt="Profile Image" /></span>
+                                            <span>
+                                                <span>İbrahim Taşalan</span>
+                                                <span class="time">1 gün Önce</span>
+                                            </span>
+                                            <span class="message">
+                                              Askeriyemizde yapmış olduğunuz inşaat çalışmanızda eksikler vardır bir an önce düzeltilmesini istiyotum 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image"><img src="~/Admin/build/images/img.jpg" alt="Profile Image" /></span>
+                                            <span>
+                                                <span>Mücahit Avcı</span>
+                                                <span class="time">1 gün önce</span>
+                                            </span>
+                                            <span class="message">
+                                               inşaatımızdaki doğalgaz işlemleri bitmiştir
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="text-center">
+                                            <a href="@Url.Action("mesajlar","Yonetim")">
+                                                <strong>Daha Fazlası İçin Tıklayınız</strong>
+                                                <i class="fa fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+            <!-- page content -->
+            <div class="right_col" role="main">
+                   @RenderBody()
+            </div>
+            <!-- /page content -->
+            <!-- footer content -->
+            <footer>
+                <div class="pull-right">
+                  <marquee>MEHMET EMİN ŞEFKATLIOĞLU</marquee>  <a href="https://colorlib.com"></a>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="~/Admin/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/Admin/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="~/Admin/vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="~/Admin/vendors/nprogress/nprogress.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="~/Admin/build/js/custom.min.js"></script>
+</body>
+</html>

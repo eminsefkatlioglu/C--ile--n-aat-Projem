@@ -1,0 +1,38 @@
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.csproj.AssemblyReference.cache
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.AssemblyInfoInputs.cache
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.AssemblyInfo.cs
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.csproj.CoreCompileInputs.cache
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.Business.deps.json
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.Business.runtimeconfig.json
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.Business.dll
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.Business.pdb
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.DataAccess.dll
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.Entity.dll
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.DataAccess.pdb
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.Entity.pdb
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.csproj.CopyComplete
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.dll
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\refint\Sefkat.Business.dll
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.pdb
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.genruntimeconfig.cache
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\ref\Sefkat.Business.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.Business.deps.json
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.Business.runtimeconfig.json
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.Business.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.Business.pdb
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.DataAccess.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.Entity.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.DataAccess.pdb
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\bin\Debug\net6.0\Sefkat.Entity.pdb
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.csproj.AssemblyReference.cache
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.AssemblyInfoInputs.cache
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.AssemblyInfo.cs
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.csproj.CoreCompileInputs.cache
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.csproj.CopyComplete
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\refint\Sefkat.Business.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.pdb
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\Sefkat.Business.genruntimeconfig.cache
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Business\obj\Debug\net6.0\ref\Sefkat.Business.dll

@@ -1,0 +1,49 @@
+﻿@model List<Sefkat.Entity.Iletisimcs>
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<table class="table">
+    <tr>
+        <td>#</td>
+        <td>Adi</td>
+        <td>Soyadi</td>
+        <td>Mail</td>
+        <td>Mesaj</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Adi</td>
+            <td>@item.Soyadi</td>
+            <td>@item.Mail</td>
+            <td>@item.Mesaj</td>
+        </tr>
+         
+               
+    }
+</table>
+
+
+
+<table class="row">
+    <tr>
+        <td>#</td>
+        <td>Adı</td>
+        <td>Soyadı</td>
+        <td>Mail</td>
+        <td>Mesaj</td>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Adi</td>
+            <td>@item.Soyadi</td>
+            <td>@item.Mail</td>
+            <td>@item.Mesaj</td>
+        </tr>
+    }
+</table>

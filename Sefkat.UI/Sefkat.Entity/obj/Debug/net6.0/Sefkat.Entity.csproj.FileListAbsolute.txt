@@ -1,0 +1,28 @@
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\bin\Debug\net6.0\Sefkat.Entity.deps.json
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\bin\Debug\net6.0\Sefkat.Entity.runtimeconfig.json
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\bin\Debug\net6.0\Sefkat.Entity.dll
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\bin\Debug\net6.0\Sefkat.Entity.pdb
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.csproj.AssemblyReference.cache
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.AssemblyInfoInputs.cache
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.AssemblyInfo.cs
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.dll
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\refint\Sefkat.Entity.dll
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.pdb
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.genruntimeconfig.cache
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\ref\Sefkat.Entity.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\bin\Debug\net6.0\Sefkat.Entity.deps.json
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\bin\Debug\net6.0\Sefkat.Entity.runtimeconfig.json
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\bin\Debug\net6.0\Sefkat.Entity.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\bin\Debug\net6.0\Sefkat.Entity.pdb
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.csproj.AssemblyReference.cache
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.AssemblyInfoInputs.cache
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.AssemblyInfo.cs
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.csproj.CoreCompileInputs.cache
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\refint\Sefkat.Entity.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.pdb
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\Sefkat.Entity.genruntimeconfig.cache
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.Entity\obj\Debug\net6.0\ref\Sefkat.Entity.dll

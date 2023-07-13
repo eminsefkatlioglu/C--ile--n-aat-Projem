@@ -1,0 +1,34 @@
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.AssemblyInfo.cs
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\bin\Debug\net6.0\Sefkat.DataAccess.deps.json
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\bin\Debug\net6.0\Sefkat.DataAccess.runtimeconfig.json
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\bin\Debug\net6.0\Sefkat.DataAccess.dll
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\bin\Debug\net6.0\Sefkat.DataAccess.pdb
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\bin\Debug\net6.0\Sefkat.Entity.dll
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\bin\Debug\net6.0\Sefkat.Entity.pdb
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.csproj.CopyComplete
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.dll
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\refint\Sefkat.DataAccess.dll
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.pdb
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.genruntimeconfig.cache
+C:\Users\Stasa\source\repos\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\ref\Sefkat.DataAccess.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\bin\Debug\net6.0\Sefkat.DataAccess.deps.json
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\bin\Debug\net6.0\Sefkat.DataAccess.runtimeconfig.json
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\bin\Debug\net6.0\Sefkat.DataAccess.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\bin\Debug\net6.0\Sefkat.DataAccess.pdb
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\bin\Debug\net6.0\Sefkat.Entity.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\bin\Debug\net6.0\Sefkat.Entity.pdb
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.csproj.AssemblyReference.cache
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.AssemblyInfoInputs.cache
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.AssemblyInfo.cs
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.csproj.CopyComplete
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\refint\Sefkat.DataAccess.dll
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.pdb
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\Sefkat.DataAccess.genruntimeconfig.cache
+C:\Users\mehmet emin\Desktop\Sefkat.UI\Sefkat.DataAccess\obj\Debug\net6.0\ref\Sefkat.DataAccess.dll

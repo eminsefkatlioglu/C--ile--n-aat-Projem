@@ -1,0 +1,28 @@
+﻿@model List<Sefkat.Entity.IsBasvuru>
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<table class="table">
+    <tr>
+        <td>#</td>
+        <td>Adi</td>
+        <td>Soyadi</td>
+        <td>Tc</td>
+        <td>Telefon No</td>
+        <td>Medeni Hali</td>
+        <td>Meslek</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Adi</td>
+            <td>@item.Soyadi</td>
+            <td>@item.Tc</td>
+            <td>@item.Telefon</td>
+            <td>@item.MedeniHali</td>
+            <td>@item.Meslek</td>
+        </tr>
+    }
+</table>

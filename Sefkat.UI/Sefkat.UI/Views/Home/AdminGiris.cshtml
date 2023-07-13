@@ -1,0 +1,77 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <form action="#" method="post">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="fname">Adı</label>
+                  <input type="text" class="form-control form-control-lg" id="fname">
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="lname">Soyadı</label>
+                  <input type="text" class="form-control form-control-lg" id="lname">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="email">G-Mail</label>
+                  <input type="email" id="email" class="form-control form-control-lg">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="phone">Telefon No</label>
+                  <input type="text" id="phone" class="form-control form-control-lg">
+                </div>
+              </div>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <label for="phone">Şifre</label>
+                            <input type="password" id="phone" class="form-control form-control-lg">
+                        </div>
+                    </div>
+              <div class="row">
+                        <li class="nav-item cta-btn2">
+                            <a class="nav-link" href="@Url.Action("Anasayfa","Yonetim")">
+                                <span class="btn btn-primary">Giriş Yap</span>
+                            </a>
+                        </li>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <h2 class="text-uppercase heading mb-5 text-left ">YÖNETİCİMİZ</h2>
+
+            <div class="media d-block media-testimonial mb-5 text-left">
+              <img src="~/UI/img/eminlogo.jpeg" alt="Image placeholder" class="img-fluid mb-3">
+              <p>Mehmet Emin ŞEFKATLIOĞLU, <a href="#"></a></p>
+              <div class="media-body">
+                <blockquote>
+                   <p>“ 1972 yılından itibaren faaliyet gösterdiğimiz sektörde önce taahhüt işleri sonrasında ise İstanbul merkezli konut ve ticari binalar yapmaya başladık. İlk dönemlerde ortaklık şeklinde devam eden inşaatlarımızı 1983 yılından itibaren ŞEFKAT İNŞAAT A.Ş’yi kurarak devam ettirdik.”</p>
+
+                </blockquote>
+
+              </div>
+            </div>
+
+           
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section class="container cta-overlap">
+    <div class="text d-flex">
+        <h2 class="h3">Projeler İçin veya Teklif Almak İçin Bize Ulaşın</h2>
+        <div class="ml-auto btn-wrap">
+            <a href="https://wa.me/905426631002?text=Merhaba,Şefkat inşaattan ulaşıyorum.Bana Yardımcı Olabilirmisiniz" class="btn-cta btn btn-outline-white">Whatsap İletişim</a>
+        </div>
+    </div>
+</section>

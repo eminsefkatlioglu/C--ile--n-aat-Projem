@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Sefkat.UI.props" />
+</Project>

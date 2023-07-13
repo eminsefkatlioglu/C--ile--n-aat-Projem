@@ -1,0 +1,130 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="tr">
+<head>
+    <title>ŞEFKAT İNŞAAT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=K2D:400,700|Niramit:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="~/UI/css/bootstrap.css">
+    <link rel="stylesheet" href="~/UI/css/animate.css">
+    <link rel="stylesheet" href="~/UI/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/UI/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="~/UI/css/jquery.timepicker.css">
+
+    <link rel="stylesheet" href="~/UI/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/UI/fonts/fontawesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="~/UI/fonts/flaticon/font/flaticon.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="~/UI/css/style.css">
+</head>
+<body>
+    <header role="banner">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand position-absolute" href="@Url.Action("Index","Home")">ŞEFKAT İNŞAAT</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse position-relative" id="navbarsExample05">
+                    <ul class="navbar-nav mx-auto pl-lg-5 pl-0 d-flex align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link " href="@Url.Action("Index","Home")">Anasayfa</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Proje","Home")">Projeler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Bloglar","Home")">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Servis","Home")">Servisler</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Iletisim","Home")">İletişim</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="@Url.Action("Hakkimizda","Home")" > Hakkımızda </a>
+                        </li>
+                       
+                        <li class="nav-item cta-btn2">
+                            <a class="nav-link" href="@Url.Action("LoginGiris","Login")">
+                                <span class="d-inline-block px-4 py-2 border">Giriş Yap</span>
+                            </a>
+                       </li>
+                     
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kurumsal</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                <a class="dropdown-item" href="@Url.Action("IsBasvuru","Home")">İş Başvuru Formu</a>                                <a class="dropdown-item" href="@Url.Action("Org","Home")">Şirket organizasyonu</a>                                
+                                <a class="dropdown-item" href="@Url.Action("Baskanmesajı","Home")">Başkanın Mesajı</a>
+                                <a class="dropdown-item" href="@Url.Action("ŞirketProfili","Home")">Şirket Profili</a>
+                                <a class="dropdown-item" href="@Url.Action("VeriKoruma","Home")">Kişisel Verilerin Krunması</a>
+                                <a class="dropdown-item" href="@Url.Action("KalitePolitikasi","Home")">Kalite Politikası</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- END header -->
+     @RenderBody()
+    <footer class="site-footer bg-dark" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Telif hakkı &copy;<script>document.write(new Date().getFullYear());</script> Tüm hakları saklıdır  Bu Şablon | Emin Şefkatlıoğlu tarafondan Yapılmıştır  <i class="fa fa-heart text-danger" aria-hidden="true"></i>  <a href="https://www.instagram.com/emin_sefkatlioglu/" target="_blank">emin_sefkatlioglu</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled footer-link">
+                        <li><span class="mr-3 d-block">Adres:</span><span class="text-white">@ViewBag.Adres</span></li>
+                        <li><span class="mr-3 d-block">Telefon:</span><span class="text-white">@ViewBag.Telefon</span></li>
+                       
+                        <li><span class="mr-3 d-block">G-mail:</span><span class="text-white">@ViewBag.Mail</span></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="text-white">Hızlı Link</h3>
+                    <ul class="list-unstyled footer-link">
+                        <li><a href="@Url.Action("Hakkimizda","Home")">Hakkımızda</a></li>
+                        <li><a href="@Url.Action("Proje","Home")">Projeler</a></li>
+                        <li><a href="@Url.Action("Iletisim","Home")">İletişim</a></li>
+                        <li><a href="@Url.Action("Bloglar","Home")">Blog</a></li>
+                        <li><a href="@Url.Action("İsBasvuru","Home")">İş Başvuru Formu</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="text-white">Sosyal Medya</h3>
+                    <ul class="list-unstyled footer-link d-flex footer-social">
+                        <li><a href="https://wa.me/905426631002?text=Merhaba,Şefkat inşaattan ulaşıyorum.Bana Yardımcı Olabilirmisiniz" class="p-2"><span class="fa fa-whatsapp"></span></a></li>
+                        <li><a href="https://twitter.com/EminSefkatli" class="p-2"><span class="fa fa-twitter"> </span></a></li>
+                        <span class="wd-icon"></span>
+                        <li><a href="https://www.facebook.com" class="p-2"><span class="fa fa-facebook"></span></a></li>
+                        <li><a href="https://www.instagram.com/emin_Sefkatlioglu/" class="p-2"><span class="fa fa-instagram"></span></a></li>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END footer -->
+    <!-- loader -->
+    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214" /></svg></div>
+
+    <script src="~/UI/js/jquery-3.2.1.min.js"></script>
+    <script src="~/UI/js/popper.min.js"></script>
+    <script src="~/UI/js/bootstrap.min.js"></script>
+    <script src="~/UI/js/owl.carousel.min.js"></script>
+    <script src="~/UI/js/jquery.waypoints.min.js"></script>
+    <script src="~/UI/js/main.js"></script>
+</body>
+</html>

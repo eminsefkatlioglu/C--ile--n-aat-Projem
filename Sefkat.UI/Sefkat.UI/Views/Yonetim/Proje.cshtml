@@ -1,0 +1,38 @@
+﻿@model List<Sefkat.Entity.Proje>
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+}
+
+@if (TempData["Durum"] != null)
+{
+    <div class="row">
+        <span style="background-color: #ed4949;color:white;padding:10px;border-radius: 10px;width: 100%;float: left;margin-bottom: 10px;text-align: center;font-size: 18px;">@TempData["Durum"]</span>
+    </div>
+}
+<div class="row">
+    <a href="@Url.Action("ProjeEkle","Yonetim")" class="btn btn-primary">Yeni Proje</a>
+</div>
+<table class="table">
+    <tr>
+        <td>#</td>
+        <td>Proje Resmi</td>
+        <td>Proje Başlığı</td>
+        <td>Proje İçeriği</td>
+        
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td><img src="@item.Resim" width="230" height="230"/></td>
+            <td>@item.Baslik</td>
+            <td>@item.Icerik</td>
+            <td>
+                <a href="@Url.Action("ProjeDuzenle","Yonetim", new {id = item.ID })" class="btn btn-warning">Düzenle</a>
+                <a href="@Url.Action("ProjeSil","Yonetim", new {id = item.ID })" class="btn btn-danger">Sil</a>
+            </td>
+        </tr>
+    }
+</table>
+

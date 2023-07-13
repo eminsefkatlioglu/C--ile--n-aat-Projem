@@ -1,0 +1,136 @@
+﻿@model Sefkat.Entity.Iletisimcs
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
+}
+
+<section class="inner-page">
+    <div class="slider-item py-5" style="background-image: url('/UI/img/slider-1.jpg');">
+
+        <div class="container">
+            <div class="row slider-text align-items-center justify-content-center text-center">
+                <div class="col-md-7 col-sm-12 element-animate fadeInUp element-animated">
+                    <h1 class="text-white">İLETİŞİM</h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<br />
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+
+                <h4>Yardım Mı Lazım? Mesaj Bırakın!</h4><br />
+                <form action="#" action="https://formspree.io/eminm1025@gmail.com" method="POST">
+
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label for="fname">ADI</label>
+                            <div class="col-md-10">@Html.TextBoxFor(x=>x.Adi, new{@class="form-control"})</div>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="lname">SOYADI</label>
+                            <div class="col-md-10">@Html.TextBoxFor(x=>x.Soyadi, new{@class="form-control"})</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                             <label for="email"> E-MAİL</label>
+                            <div class="col-md-10">@Html.TextBoxFor(x=>x.Mail, new{@class="form-control"})</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <label for="message">MESAJ</label>
+                            <div class="col-md-10">@Html.TextBoxFor(x=>x.Mesaj, new{@class="form-control"})</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input type="submit" value="Mesajı İlet" class="btn btn-primary btn-lg btn-block">
+                        </div>
+                    </div>
+                </form>
+
+                <div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+<div class="wpbext_column wpb_content_element ">
+<div class="wpb_wrapper">
+<p><strong>İSTANBUL:</strong>&nbsp;Altunizade Kısıklı Cad. No: 37 34662&nbsp;Üsküdar, İstanbul / TÜRKİYE</p>
+<p><strong>Tel: </strong>+90 (542) 663 10 02 (Pbx)</p>
+<p><strong>Faks: </strong>+90 (542) 663 10 02 – Şefkat İnşaat</p>
+</div>
+</div>
+</div></div></div></div>
+            
+           </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <h5 class="text-uppercase mb-3">Adres</h5>
+                <p class="mb-5">Karaköprü <br> Seyrantepe <br> 6363 sokak</p>
+
+                <h5 class="text-uppercase mb-3">
+                    BİZE E-POSTA GÖNDER
+                </h5>
+                <p class="mb-5"><a href="mailto:info@yourdomain.com">eminm1025@gmail.com</a> <br> <a href="mailto:customer@yourdomain.com">sefkatinsaat@gmail.com</a></p>
+
+                <h5 class="text-uppercase mb-3">Bizi Arayın</h5>
+                <p class="mb-5"> Telefon: (542) 663 1002 <br> Mobil: (542) 663 1002 <br> Fax: (+1) 435 3534</p>
+                <a href="https://wa.me/905426631002?text=Merhaba,Şefkat inşaattan ulaşıyorum.Bana Yardımcı Olabilirmisiniz" title="Şefkat İnşaat Whatsapp Hattı" class="float" target="_blank">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section border-t">
+    <div class="container">
+        <div class="row justify-content-center mb-5 element-animate fadeInUp element-animated">
+            <div class="col-md-8 text-center mb-5">
+                <h2 class="text-uppercase heading border-bottom mb-4">YÖNETİCİLERİMİZ</h2>
+                <p class="mb-0 lead">
+                    Geleceğe emin adımlar ile yürüyen Şefkat İnşaat projelerini keşfedin.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 element-animate fadeInUp element-animated">
+                <div class="media d-block media-testimonial text-center">
+                    <img src="~/UI/img/eminlogo.jpeg" alt="Image placeholder" class="img-fluid mb-3">
+                    <p>Mehmet Emin Şefkatlıoğlu, <a href="#"></a></p>
+                    <div class="media-body">
+                        <blockquote>
+                            <p>“ 1972 yılından itibaren faaliyet gösterdiğimiz sektörde önce taahhüt işleri sonrasında ise İstanbul merkezli konut ve ticari binalar yapmaya başladık. İlk dönemlerde ortaklık şeklinde devam eden inşaatlarımızı 1983 yılından itibaren ŞEFKAT İNŞAAT A.Ş’yi kurarak devam ettirdik.”</p>
+                        </blockquote>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 element-animate fadeInUp element-animated">
+                <div class="media d-block media-testimonial text-center">
+                    <img src="~/UI/img/kanbazlogo.jpg" alt="Image placeholder" class="img-fluid mb-3">
+                    <p>Mehmet Kanbaz, <a href="https://twitter.com/EminSefkatli"></a></p>
+                    <div class="media-body">
+                        <blockquote>
+                            <p>“İlk dönemlerde ortaklık şeklinde devam eden inşaatlarımızı 1983 yılından itibaren ŞEFKAT İNŞAAT A.Ş’yi kurarak devam ettirdik.”.”</p>
+                        </blockquote>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container cta-overlap">
+    <div class="text d-flex">
+        <h2 class="h3">Projeler İçin veya Teklif Almak İçin Bize Ulaşın</h2>
+        <div class="ml-auto btn-wrap">
+         4   <a href="https://wa.me/905426631002?text=Merhaba,Şefkat inşaattan ulaşıyorum.Bana Yardımcı Olabilirmisiniz" class="btn-cta btn btn-outline-white">Whatsap İletişim</a>
+        </div>
+    </div>
+</section>
